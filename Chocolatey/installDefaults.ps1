@@ -27,7 +27,6 @@ cinst notepadplusplus
 cinst pidgin 
 cinst snoop 
 cinst diffmerge 
-cinst teamviewer 
 cinst windirstat 
 cinst dotPeek
 cinst fiddler 
