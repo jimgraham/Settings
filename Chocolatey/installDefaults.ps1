@@ -7,32 +7,48 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 #-- Install applications
 cinst 7zip
 cinst 7zip.commandline
-cinst paint.net
+
+#-- virtual file systems
 cinst dropbox
-cinst CutePDF 
-cinst GoogleChrome 
+#-- included in Windows 8.1
+#cinst skydrive
+
+#-- developer tools
 cinst TortoiseGit 
 cinst tortoisesvn
 cinst AnkhSvn 
 cinst GitHub 
-cinst 1password 
-cinst HipChat 
-cinst VirtualCloneDrive 
-cinst imgburn 
-cinst Firefox 
-cinst thunderbird 
 cinst nsis 
-cinst windirstat 
 cinst notepadplusplus 
-cinst pidgin 
 cinst snoop 
 cinst diffmerge 
 cinst windirstat 
 cinst dotPeek
+
+#-- iso tools
+cinst VirtualCloneDrive 
+cinst imgburn 
+
+#-- browsers
+cinst GoogleChrome 
+cinst Firefox 
+
+#-- tools
+cinst 1password 
+cinst CutePDF 
+cinst windirstat 
 cinst fiddler 
 cinst reshack
+
+#-- applications
+cinst paint.net
+cinst HipChat 
+cinst thunderbird 
+cinst pidgin 
+
 cinst OpenOffice
 cinst SharpKeys
+cinst MarkdownPad
 
 #-- Currently fail
 # cinst IcoFx 
