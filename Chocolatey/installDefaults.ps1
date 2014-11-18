@@ -10,16 +10,16 @@ cinst 7zip.commandline
 
 #-- virtual file systems
 cinst dropbox
-#-- included in Windows 8.1
-#cinst skydrive
+cinst onedrive
+cinst googledrive
 
 #-- developer tools
 cinst TortoiseGit 
 cinst tortoisesvn
 cinst AnkhSvn 
-cinst GitHub 
-cinst nsis 
+cinst githubforwindows 
 cinst notepadplusplus 
+cinst Atom
 cinst snoop 
 cinst diffmerge 
 cinst windirstat 
@@ -36,19 +36,19 @@ cinst Firefox
 #-- tools
 cinst 1password 
 cinst CutePDF 
-cinst windirstat 
 cinst fiddler 
 cinst reshack
 
 #-- applications
 cinst paint.net
-cinst HipChat 
-cinst thunderbird 
-cinst pidgin 
-
-cinst OpenOffice
+cinst libreoffice
 cinst SharpKeys
 cinst MarkdownPad
+
+#-- no longer used
+#cinst nsis 
+#cinst thunderbird 
+#cinst pidgin 
 
 #-- Currently fail
 # cinst IcoFx 
