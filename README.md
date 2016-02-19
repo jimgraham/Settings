@@ -1,7 +1,7 @@
 Settings
 ========
 
-http://github.com/jimgraham/Settings
+http://github.com/jimgraham/win-settings
 
 ## Description
 
